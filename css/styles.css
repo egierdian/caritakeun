@@ -34,9 +34,10 @@ body {
 .custom-heading-jumbotron {
     display: flex;
     align-items: center;
+    /* margin-top: 20px; */
 }
 .custom-button-jumbotron {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 10px;
     padding: 10px 25px;
     border: none;
@@ -57,7 +58,7 @@ body {
 }
 .custom-card-partner h2{
      font-weight: 700;
-    color: #9e9e9e;
+    color: #c9c8c8;
 }
 
 /* write story */
@@ -127,4 +128,5 @@ body {
 }
 .custom-footer .message:hover {
     cursor: pointer;
+    
 }

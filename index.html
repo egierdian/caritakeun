@@ -6,16 +6,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>Caritakeun</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Aos -->
     <link rel="stylesheet" href="css/aos.css">
+    <!-- fa -->
+    <link rel="stylesheet" href="css/font-awesome/fontawesome.min.css">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap" rel="stylesheet">
-    <title>Caritakeun</title>
+    
 </head>
 
 <body>
@@ -25,9 +28,9 @@
             <a class="navbar-brand" href="index.html">
                 <h4>CARITAKEUN</h4>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            <button class="navbar-toggler" style="border:none;margin-top: -5px;" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span><i class="fas fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarText">
                 <ul class="navbar-nav ml-auto">
@@ -58,11 +61,11 @@
     <!-- end navbar -->
 
     <!-- jumbotron -->
-    <div class="container custom-jumbotron">
-        <div class="row">
-            <div class="col-md-6 custom-heading-jumbotron pt-2 pb-2">
+    <div class="container custom-jumbotron mt-2 mb-5">
+        <div class="row d-flex custom-section align-items-center">
+            <div class="col-md-6 custom-heading-jumbotron pt-2 pb-3">
                 <div class="content-jumbotron">
-                    <h1>Ceritakan Apa yang Ingin Kamu Ungkapkan</h1>
+                    <h1 style="font-weight: 700;">Ceritakan Apa yang Ingin Kamu Ungkapkan</h1>
                     <p>Baca atau tulis ceritamu sendiri.</p>
                     <!-- <a class="btn custom-button-jumbotron">
                         <h5>Mulai Membaca</h5>
@@ -72,7 +75,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 pt-2 pb-2">
+            <div class="col-md-6 order-first order-md-last pb-3">
                 <img class="img-fluid " src="images/undraw_book_lover_mkck.svg">
             </div>
         </div>
@@ -145,7 +148,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 pt-2 pb-2">
-                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="2000">
+                    <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
                         <div class="card custom-card">
                             <div class="custom-button">
                                 <h1 class="display-3">1</h1>
@@ -160,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 pt-2 pb-2">
-                    <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
+                    <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
                         <div class="card custom-card">
                             <div class="custom-button">
                                 <h1 class="display-3">2</h1>
@@ -209,6 +212,7 @@
         crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/aos.js"></script>
+    <script src="js/font-awesome/all.js"></script>
     <script>
         AOS.init();
     </script>
