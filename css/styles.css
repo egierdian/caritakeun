@@ -72,12 +72,13 @@ body {
     padding-bottom: 20px;
 }
 .custom-img {
+    margin-top:15px;
     border-radius: 15px;
-    min-height: 270px;
+    height: 270px;
 }
 .custom-write-story .custom-card {
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 1px 1px 5px #c7c7c7;
 }
 .custom-write-story .custom-card:hover {
@@ -129,4 +130,19 @@ body {
 .custom-footer .message:hover {
     cursor: pointer;
     
+}
+/* custom-partner-row */
+
+@media screen and (max-width: 990px){
+    .custom-img
+    {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .custom-partner-row
+    {
+        margin: 15px 0;
+    }
 }
